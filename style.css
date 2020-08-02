@@ -393,9 +393,30 @@ footer {
 
 @media only screen and (min-width: 2030px) {
   .topnav a {
-    font-size: 60px;
+    font-size: 2em;
+  }
+
+  #contact {
+  background-size: 100% 100%; 
+  }
+
+  #section-left {
+    height: 360px;
+  }
+
+  #section-right {
+    height: 360px;
+  }
+
+  #section-left2 {
+    height: 360px;
+  }
+
+  #section-right2 {
+    height: 360px;
   }
 }
+
 
 .rainbow_text_animated:hover {
   background: linear-gradient(to right, #6514ff, #ff00dd, #ff009d, #ff0037, #6f00ff);
