@@ -167,6 +167,8 @@ scrollbar-width: none;  /* Firefox */
     margin-right: 2.5%;
     width: 40%;
     padding: 10px;
+    height: 500px;
+
 }
 #section-right {
     background-color: #504d4d;
@@ -175,6 +177,8 @@ scrollbar-width: none;  /* Firefox */
     margin-right: 5%;
     float:right;
     padding: 10px;
+    height: 500px;
+
 }
 
 #section-left2 {
@@ -196,6 +200,7 @@ scrollbar-width: none;  /* Firefox */
 
 #top {
   padding-top: 4.2%;
+  margin-top: 40%;
 }
 
 #gallery {
@@ -417,7 +422,13 @@ footer {
   }
 }
 
+@media only screen and (max-width: 1240px) {
+  .responsive {
+    width: 90%;
+    margin: 5%;
+  }
 
+}
 .rainbow_text_animated:hover {
   background: linear-gradient(to right, #6514ff, #ff00dd, #ff009d, #ff0037, #6f00ff);
   
