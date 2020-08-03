@@ -404,6 +404,18 @@ footer {
     font-size: 2em;
   }
 
+  header {
+    padding-top: 5%;
+  }
+
+  header p {
+    font-size: 3em;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
   #contact {
   background-size: 100% 100%; 
   }
