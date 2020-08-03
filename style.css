@@ -287,7 +287,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
 
   #notmobile {
     display: none;
@@ -397,23 +397,37 @@ footer {
     margin-left: 5%;
     margin-right: 5vw;
   }
+
+  #top{
+    display: block !important;
+  }
+
+  #top2 {
+    display: block !important;
+  }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (max-width: 20000px) and (min-width: 2000px) {
   .topnav a {
     font-size: 2em;
   }
 
   header {
-    padding-top: 5%;
+    margin-top: 2.7%;
+  }
+
+  h2 {
+    font-size: 2.5em;
   }
 
   header p {
     font-size: 3em;
+    margin-top: 0;
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 3.5em !important;
+    margin-right: 45% !important;
   }
 
   #contact {
@@ -438,6 +452,10 @@ footer {
 
   header {
     padding-top: 4%;
+  }
+
+  #aboutdiv > p {
+    font-size: 1em;
   }
 }
 
