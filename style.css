@@ -279,7 +279,7 @@ footer {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   font-size: 26px;
-  margin-top: 8%;
+  margin-top: 2%;
 }
 
 
@@ -419,6 +419,10 @@ footer {
 
   #section-right2 {
     height: 360px;
+  }
+
+  header {
+    padding-top: 4%;
   }
 }
 
