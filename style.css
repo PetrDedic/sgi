@@ -148,7 +148,7 @@ scrollbar-width: none;  /* Firefox */
     color: #f2f2f2;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    font-size: 80px;
+    font-size: 4em;
     margin-left: 5%;
   }
 
@@ -167,7 +167,7 @@ scrollbar-width: none;  /* Firefox */
     margin-right: 2.5%;
     width: 40%;
     padding: 10px;
-    height: 500px;
+    height: 400px;
 
 }
 #section-right {
@@ -177,8 +177,7 @@ scrollbar-width: none;  /* Firefox */
     margin-right: 5%;
     float:right;
     padding: 10px;
-    height: 500px;
-
+    height: 400px;
 }
 
 #section-left2 {
@@ -188,6 +187,8 @@ scrollbar-width: none;  /* Firefox */
   margin-right: 2.5%;
   width: 40%;
   padding: 10px;
+  height: 400px;
+
 }
 #section-right2 {
   background-color: #272525;
@@ -196,6 +197,8 @@ scrollbar-width: none;  /* Firefox */
   margin-right: 5%;
   float:right;
   padding: 10px;
+  height: 400px;
+
 }
 
 #top {
@@ -395,8 +398,7 @@ footer {
   }
 }
 
-
-@media only screen and (min-width: 2030px) {
+@media only screen and (min-width: 2000px) {
   .topnav a {
     font-size: 2em;
   }
@@ -424,6 +426,10 @@ footer {
   header {
     padding-top: 4%;
   }
+
+  #photo {
+
+  }
 }
 
 @media only screen and (max-width: 1240px) {
@@ -433,6 +439,8 @@ footer {
   }
 
 }
+
+
 .rainbow_text_animated:hover {
   background: linear-gradient(to right, #6514ff, #ff00dd, #ff009d, #ff0037, #6f00ff);
   
