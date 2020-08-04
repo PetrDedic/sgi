@@ -624,7 +624,7 @@ footer {
   }
 
   h2 {
-    margin-top: 20%;
+    margin-top: 2%;
     font-size: 36px;
     margin-left: 0;
   }
@@ -673,7 +673,7 @@ footer {
   #contact {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 300%;
+    background-size: 0 !important;
     margin-top: 0;
     padding-top: 0%;
   }
@@ -696,6 +696,10 @@ footer {
 
   #top2 {
     display: block;
+  }
+
+  #photo {
+    font-size: 2em;
   }
 }
 
