@@ -1,6 +1,6 @@
 # Responsive website for SGI
 
-Site is currently in development, it has small bugs but main functionality works. 
+Site is currently in development, it has small bugs, but main functionality works. 
 
 Work in progress: 
 -Mobile responsiveness
